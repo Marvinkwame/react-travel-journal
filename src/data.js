@@ -1,4 +1,4 @@
-export default myData [
+export default myData = [
     {
         title: "Elmina Castle",
         location: "Ghana",
