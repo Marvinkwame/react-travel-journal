@@ -7,12 +7,12 @@ export default function Places(props) {
     return (
         <div className="travel-card">
             <div className="img-section">
-                <img src={`../images/${props.item.imageUrl}`} className="place-img" />
+                <img src={`../images/${props.item.imageUrl}`} className="place-img" alt="tourist-site" />
             </div>
 
             <div className="info">
                 <div className="location-title">
-                    <img src="../images/location.png" />
+                    <img src="../images/location.png" alt="red-location-logo" />
                     <p className="country">{props.item.location}</p>
                     <p><a href={props.item.googleMapsUrl}>View on Google Maps</a></p>
                 </div>
